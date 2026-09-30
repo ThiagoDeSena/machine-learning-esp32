@@ -15,7 +15,7 @@ const int PINO_LED_OCIOSO   = 14; // LED indicador para "ocioso"
 
 // Constantes para a janela deslizante
 const size_t JANELA_TOTAL = EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE; // 100 amostras (2,0 s)
-const size_t AVANCO_AMOSTRAS = 25; // 0,5 s de avanço (500 ms / 20 ms = 25 amostras)
+const size_t AVANCO_AMOSTRAS = 10; // 0,5 s de avanço (500 ms / 20 ms = 25 amostras)
 
 // Buffers de amostragem e inferência (duplo buffer)
 static float sample_buffer[JANELA_TOTAL];
